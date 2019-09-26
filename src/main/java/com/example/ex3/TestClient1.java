@@ -14,7 +14,7 @@ public class TestClient1 {
 
 	private Logger logger = LoggerFactory.getLogger(TestClient1.class);
 
-	@Value("${fullname}")
+	@Value("${fullname:komal}")
 	private String username;
 
 	@GetMapping
